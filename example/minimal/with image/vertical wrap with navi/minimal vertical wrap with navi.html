@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+<title>Slidebox</title>
+<style type = "text/css">
+.bondWrapFrames {
+    border: solid 1px;
+    width: 630px;
+    height:  450px;
+}
+</style>
+<script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.js"></script>
+<script type = "text/javascript" src = "../../../lib/2.2/jquery.bondSlider-2.2.js"></script>
+<script type = "text/javascript">
+	$(document).ready(function(){
+        $(".bondSlideBox").bondSlider({
+            autoPlayTime: 1000,
+            typeScroller: "vertical"
+        });
+	});
+</script>
+</head>
+
+<body>
+<div id = "bondSlideBox" class = "bondSlideBox">
+	<div class="cont">
+        <div class = "bondWrapFrames">
+            <div class = "bondFrames">
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_closed.jpg"/>
+                </div>
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_falling.jpg"/>
+                </div>
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_half-closed.jpg"/>
+                </div>
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_laptop.jpg"/>
+                </div>
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_closed.jpg"/>
+                </div>
+                <div class = "bondFrame">
+                    <img src="image/RuggedKey_open.jpg"/>
+                </div>
+            </div>
+		</div>
+	</div>
+    <div class="bondNavi">
+        <a href = "#" class = "bondThumb">1</a>
+        <a href = "#" class = "bondThumb">2</a>
+        <a href = "#" class = "bondThumb">3</a>
+        <a href = "#" class = "bondThumb">4</a>
+        <a href = "#" class = "bondThumb">5</a>
+        <a href = "#" class = "bondThumb">6</a>
+    </div>
+</div>
+</body>
+</html>
