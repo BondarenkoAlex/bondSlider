@@ -1,5 +1,5 @@
 # bondSlider
-bondSlider slider
+bondSlider slider - jQuery plugin
 
 http://alexbond.ru/blog/javascript-and-jquery/bondslider-jquery/ 
 
